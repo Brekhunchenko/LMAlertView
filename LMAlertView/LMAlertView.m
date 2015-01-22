@@ -65,7 +65,7 @@
 		}
 		
 		CGSize size = frontmostViewController.view.frame.size;
-		size.height += 44.0;
+//		size.height += 44.0;
 		
 		[self setupWithSize:size];
 		
@@ -357,8 +357,8 @@
 	[_representationView.layer setMasksToBounds:YES];
 	[_representationView.layer setCornerRadius:7.0];
 	
-	_toolbar = [[UIToolbar alloc] initWithFrame:(CGRect){.size = self.representationView.frame.size}];
-	_toolbar.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+//	_toolbar = [[UIToolbar alloc] initWithFrame:(CGRect){.size = self.representationView.frame.size}];
+//	_toolbar.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	
 	[self.representationView addSubview:_toolbar];
 	
